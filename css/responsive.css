@@ -1,0 +1,230 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+/* Header Section Responsive Style Starts */
+.logo {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.header-content-left-side h2 {
+    font-size: 30px;
+}
+.header-content .social-icon{
+    margin-top: 30px;
+}
+.header-content-right-side a i.fa{
+    opacity:1;
+}
+/* Header Section Responsive Style Ends */
+
+/* About Me Section Responsive Style Starts */
+   .personal-info {
+    margin-top: 25px; 
+    }
+/* About Me Section Responsive Style Ends */
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+/* Header Section Responsive Style Starts */
+
+.mean-container .mean-bar {
+    float: left;
+    width: 100%;
+    position: relative;
+    background:none;
+    padding: 4px 0;
+    margin-top: -52px;
+}
+.mean-container a.meanmenu-reveal {
+ 
+    margin-top:16px;
+}
+.mean-container .mean-nav {
+    float: left;
+    width: 100%;
+    margin-top: 65px;
+}
+#particles-js {
+   
+    height: 50vh;
+    
+}
+#particles-js::after {
+    height: 50vh;
+    
+}
+.header-content-left {
+    width: 100%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-content-left h3::after {
+    left:48%;
+
+}
+.header-content-right {
+    top: 259px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.header-content-left-side p {
+    font-size: 15px;
+}
+ .header-content-left-side h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.header-content .social-icon{
+    margin-top: 5px;
+}
+.header-content .social-icon ul li a{
+    display: block;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 23px;
+    transition: .3s;
+}
+.header-content-right-side a i.fa{
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    line-height: 38px;
+    margin-top: 10px;
+}
+/* Header Section Responsive Style Ends */
+
+/* About Me Section Responsive Style Starts */
+   .personal-info {
+    margin-top: 25px; 
+    } 
+    .personal-info h5{
+    font-size: 13px
+    }
+    .personal-info p{
+    font-size: 13px;
+}
+/* About Me Section Responsive Style Ends */
+
+/*  Titles,Headlines and Subtitle Responsive Style starts */
+.title h2{
+    font-size: 15px;
+}
+.personal-details h3, .lang-details h3{
+    font-size: 12px;
+}
+.my-skills h4{
+    font-size: 15px;
+}
+.single-service-box h3{
+    font-size: 12px;
+}
+.single-counter-box h3{
+    font-size: 12px;
+}
+.single-testimonial-item h4{
+    font-size: 12px;
+}
+.single-service-box p{
+    font-size: 12px;
+}
+.creative-works p{
+    font-size: 13px;
+}
+.testimonial-content p{
+    font-size: 13px;
+}
+.download-cv-content h3{
+    font-size: 17px;
+}
+.contact-form-box h4 {
+    font-size: 15px;
+}
+/* Titles,Headlines and Subtitle Responsive Style Ends */
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+/*  Titles,Headlines and Subtitle Style Starts */
+.header-content{
+    width: 100%;
+    text-align: center;
+    top: 20%;
+
+}
+.header-content-left h3::after {
+    left: 66%;
+}
+.header-content-left-side p {
+    font-size: 18px;
+}
+ .header-content-left-side h2 {
+    font-size: 20px;
+}
+.header-content .social-icon{
+    margin-top: 10px;
+}
+.header-content .social-icon ul li a{
+    display: block;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 23px;
+    transition: .3s;
+}
+.header-content-right-side a i.fa{
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #ddd;
+    font-size: 25px;
+    line-height: 55px;
+     margin-top: 20px;
+}
+/* Header Section Responsive Style Ends */
+
+/* Title and Headlines Responsive Style starts */
+.title h2{
+    font-size: 18px;
+}
+.personal-info h5{
+    font-size: 15px
+  }
+.personal-details h3, .lang-details h3{
+    font-size: 15px;
+}
+.single-service-box h3{
+    font-size: 15px;
+}
+.single-counter-box h3{
+    font-size: 16px;
+}
+.single-testimonial-item h4{
+    font-size: 16px;
+}
+/*  Titles,Headlines and Subtitle Style Ends */
+}
